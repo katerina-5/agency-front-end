@@ -7,7 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 // component modules
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { WelcomePageComponent } from './components/pages/welcome-page/welcome-page.component';
 
 @NgModule({
   declarations: [
