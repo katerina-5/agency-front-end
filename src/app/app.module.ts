@@ -15,13 +15,15 @@ import { AppComponent } from './app.component';
 import { WelcomePageComponent } from './components/pages/welcome-page/welcome-page.component';
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
 import { CustomerSignInComponent } from './components/pages/customer-sign-in/customer-sign-in.component';
+import { CustomerSignUpComponent } from './components/pages/customer-sign-up/customer-sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomePageComponent,
     NotFoundComponent,
-    CustomerSignInComponent
+    CustomerSignInComponent,
+    CustomerSignUpComponent
   ],
   imports: [
     BrowserModule,
