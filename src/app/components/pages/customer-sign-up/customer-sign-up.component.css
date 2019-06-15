@@ -1,0 +1,13 @@
+@import '../../../shared/styles/form.css';
+
+.wrapper {
+    background-image: url('./../../../../assets/lviv_logo_2.jpg');
+}
+
+mat-card {
+    height: 600px;
+}
+
+.signIn {
+    text-align: center;
+}
