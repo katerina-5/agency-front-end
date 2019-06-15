@@ -17,6 +17,9 @@ import { NotFoundComponent } from './components/pages/not-found/not-found.compon
 import { CustomerSignInComponent } from './components/pages/customer-sign-in/customer-sign-in.component';
 import { CustomerSignUpComponent } from './components/pages/customer-sign-up/customer-sign-up.component';
 import { ManagerSignInComponent } from './components/pages/manager-sign-in/manager-sign-in.component';
+import { CustomerHeaderComponent } from './components/shared/customer-header/customer-header.component';
+import { ManagerHeaderComponent } from './components/shared/manager-header/manager-header.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ManagerSignInComponent } from './components/pages/manager-sign-in/manag
     NotFoundComponent,
     CustomerSignInComponent,
     CustomerSignUpComponent,
-    ManagerSignInComponent
+    ManagerSignInComponent,
+    CustomerHeaderComponent,
+    ManagerHeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
