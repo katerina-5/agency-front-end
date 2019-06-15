@@ -20,6 +20,7 @@ import { ManagerSignInComponent } from './components/pages/manager-sign-in/manag
 import { CustomerHeaderComponent } from './components/shared/customer-header/customer-header.component';
 import { ManagerHeaderComponent } from './components/shared/manager-header/manager-header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { CustomerMainPageComponent } from './components/pages/customer_pages/customer-main-page/customer-main-page.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     ManagerSignInComponent,
     CustomerHeaderComponent,
     ManagerHeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CustomerMainPageComponent
   ],
   imports: [
     BrowserModule,
