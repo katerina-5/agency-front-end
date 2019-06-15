@@ -1,0 +1,31 @@
+<div class="wrapper">
+  <div class="logo">
+    <a mat-button class="link" href="/">Real Estate Agency</a>
+  </div>
+
+  <mat-card>
+    <form>
+      <div class="title">
+        <mat-card-title>Sign In</mat-card-title>
+      </div>
+      <mat-form-field>
+        <input matInput placeholder="Login:" #login required>
+        <mat-icon matSuffix>account_circle</mat-icon>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Password:" #password [type]="hide ? 'password' : 'text'" required>
+        <mat-icon class="icon__show__hide" matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}
+        </mat-icon>
+      </mat-form-field>
+
+      <button mat-raised-button (click)="auth(login.value, password.value)">Sign In</button>
+
+      <div class="signUp">
+        <span>
+          Not a member?
+          <a href="/sign_up">Sign up</a>
+        </span>
+      </div>
+    </form>
+  </mat-card>
+</div>
