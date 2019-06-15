@@ -1,0 +1,5 @@
+@import '../../../shared/styles/form.css';
+
+.wrapper {
+    background-image: url('./../../../../assets/lviv_logo_2.jpg');
+}

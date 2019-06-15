@@ -16,6 +16,7 @@ import { WelcomePageComponent } from './components/pages/welcome-page/welcome-pa
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
 import { CustomerSignInComponent } from './components/pages/customer-sign-in/customer-sign-in.component';
 import { CustomerSignUpComponent } from './components/pages/customer-sign-up/customer-sign-up.component';
+import { ManagerSignInComponent } from './components/pages/manager-sign-in/manager-sign-in.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CustomerSignUpComponent } from './components/pages/customer-sign-up/cus
     WelcomePageComponent,
     NotFoundComponent,
     CustomerSignInComponent,
-    CustomerSignUpComponent
+    CustomerSignUpComponent,
+    ManagerSignInComponent
   ],
   imports: [
     BrowserModule,
