@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerSignInComponent implements OnInit {
 
+  hide = true;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  auth(login, password) {
+    // TO DO:
+    // authorization request to server
   }
 
 }
