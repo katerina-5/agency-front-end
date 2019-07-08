@@ -4,6 +4,10 @@
     background-image: url('./../../../../assets/lviv_logo_2.jpg');
 }
 
-.signUp {
+mat-card {
+    height: 600px;
+}
+
+.signIn {
     text-align: center;
 }

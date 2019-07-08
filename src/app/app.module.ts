@@ -22,6 +22,7 @@ import { ManagerHeaderComponent } from './components/shared/manager-header/manag
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { CustomerMainPageComponent } from './components/pages/customer_pages/customer-main-page/customer-main-page.component';
 import { ManagerMainPageComponent } from './components/pages/manager_pages/manager-main-page/manager-main-page.component';
+import { ManagerSignUpComponent } from './components/pages/manager-sign-up/manager-sign-up.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ManagerMainPageComponent } from './components/pages/manager_pages/manag
     ManagerHeaderComponent,
     FooterComponent,
     CustomerMainPageComponent,
-    ManagerMainPageComponent
+    ManagerMainPageComponent,
+    ManagerSignUpComponent
   ],
   imports: [
     BrowserModule,

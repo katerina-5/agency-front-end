@@ -7,6 +7,7 @@ import { CustomerSignUpComponent } from './components/pages/customer-sign-up/cus
 import { ManagerSignInComponent } from './components/pages/manager-sign-in/manager-sign-in.component';
 import { CustomerMainPageComponent } from './components/pages/customer_pages/customer-main-page/customer-main-page.component';
 import { ManagerMainPageComponent } from './components/pages/manager_pages/manager-main-page/manager-main-page.component';
+import { ManagerSignUpComponent } from './components/pages/manager-sign-up/manager-sign-up.component';
 
 const routes: Routes = [
   { path: '', component: WelcomePageComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'sign_in', component: CustomerSignInComponent },
   { path: 'sign_up', component: CustomerSignUpComponent },
   { path: 'admin/sign_in', component: ManagerSignInComponent },
+  { path: 'admin/sign_up', component: ManagerSignUpComponent },
   { path: 'customer', component: CustomerMainPageComponent },
   { path: 'manager', component: ManagerMainPageComponent },
   { path: '**', redirectTo: 'not_found', pathMatch: 'full' }
