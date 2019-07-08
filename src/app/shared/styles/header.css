@@ -11,3 +11,10 @@ header a {
     color: white;
     margin: 5px;
 }
+
+header a:hover {
+    color: blueviolet;
+    background-color: white;
+    /* transition: 2s; */
+    transition: all 0.5s ease-out;
+}
