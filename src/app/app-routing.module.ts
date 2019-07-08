@@ -8,6 +8,7 @@ import { ManagerSignInComponent } from './components/pages/manager-sign-in/manag
 import { CustomerMainPageComponent } from './components/pages/customer_pages/customer-main-page/customer-main-page.component';
 import { ManagerMainPageComponent } from './components/pages/manager_pages/manager-main-page/manager-main-page.component';
 import { ManagerSignUpComponent } from './components/pages/manager-sign-up/manager-sign-up.component';
+import { ObjectsCatalogComponent } from './components/pages/objects-catalog/objects-catalog.component';
 
 const routes: Routes = [
   { path: '', component: WelcomePageComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'admin/sign_up', component: ManagerSignUpComponent },
   { path: 'customer', component: CustomerMainPageComponent },
   { path: 'manager', component: ManagerMainPageComponent },
+  { path: 'objects', component: ObjectsCatalogComponent },
   { path: '**', redirectTo: 'not_found', pathMatch: 'full' }
 ];
 

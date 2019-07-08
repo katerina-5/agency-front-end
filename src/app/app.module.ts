@@ -23,6 +23,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { CustomerMainPageComponent } from './components/pages/customer_pages/customer-main-page/customer-main-page.component';
 import { ManagerMainPageComponent } from './components/pages/manager_pages/manager-main-page/manager-main-page.component';
 import { ManagerSignUpComponent } from './components/pages/manager-sign-up/manager-sign-up.component';
+import { ObjectsCatalogComponent } from './components/pages/objects-catalog/objects-catalog.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ManagerSignUpComponent } from './components/pages/manager-sign-up/manag
     FooterComponent,
     CustomerMainPageComponent,
     ManagerMainPageComponent,
-    ManagerSignUpComponent
+    ManagerSignUpComponent,
+    ObjectsCatalogComponent
   ],
   imports: [
     BrowserModule,

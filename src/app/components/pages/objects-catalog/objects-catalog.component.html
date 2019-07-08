@@ -1,0 +1,24 @@
+<div *ngIf="user; then customer_header else manager_header"></div>
+<ng-template #customer_header>
+  <app-customer-header></app-customer-header>
+</ng-template>
+<ng-template #manager_header>
+  <app-manager-header></app-manager-header>
+</ng-template>
+
+<div class="main">
+  <div class="search">
+    <mat-card>
+      <mat-card-title>Search in catalog</mat-card-title>
+      <mat-form-field></mat-form-field>
+      <mat-form-field></mat-form-field>
+      <mat-form-field></mat-form-field>
+      <button mat-button>Search</button>
+    </mat-card>
+  </div>
+  <div class="catalog">
+    <p>Catalog of objects</p>
+  </div>
+</div>
+
+<app-footer></app-footer>
