@@ -7,17 +7,33 @@
 </ng-template>
 
 <div class="main">
-  <div class="search">
-    <mat-card>
-      <mat-card-title>Search in catalog</mat-card-title>
-      <form>
-        <mat-form-field>
-          <input matInput placeholder="Search request">
-          <mat-icon matSuffix>search</mat-icon>
-        </mat-form-field>
-      </form>
-      <button mat-button>Search</button>
-    </mat-card>
+  <div class="aside_menu">
+    <div class="search">
+      <mat-card>
+        <mat-card-title>Search in catalog</mat-card-title>
+        <form>
+          <mat-form-field>
+            <input matInput placeholder="Search request">
+            <mat-icon matSuffix>search</mat-icon>
+          </mat-form-field>
+        </form>
+        <button mat-button>Search</button>
+      </mat-card>
+    </div>
+
+    <div class="all_search">
+      <mat-card>
+        <mat-card-title>Search in catalog</mat-card-title>
+        <form>
+          <mat-form-field>
+            <select matSelect name="Select category" id=""></select>
+            <!-- <input matSelect placeholder="Select category"> -->
+            <!-- <mat-icon matSuffix>search</mat-icon> -->
+          </mat-form-field>
+        </form>
+        <button mat-button>Search</button>
+      </mat-card>
+    </div>
   </div>
   <div class="catalog">
     <p>Catalog of objects</p>
